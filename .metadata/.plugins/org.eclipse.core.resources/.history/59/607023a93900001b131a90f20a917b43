@@ -1,0 +1,10 @@
+package com.syntax.class01;
+
+public class PracticeVariables {
+/*
+ * Create a Java program and name it Practice Variables
+ *In your program create variables to store all different types of primitive data to test the range
+ *Print the value of each variable
+ */
+	
+}

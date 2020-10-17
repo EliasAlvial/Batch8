@@ -1,0 +1,11 @@
+package com.syntax.class01;
+
+public class SecondPrgram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println(Fasten Your Seatbelts, Its Going To Be A Bumpy Ride);
+System.out.println(How About Them Marbles);
+	}
+
+}
