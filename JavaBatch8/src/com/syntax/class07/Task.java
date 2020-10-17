@@ -12,7 +12,7 @@ public static void main(String[] args) {
 			System.out.println("I do not need a day off anymore");
 			workday=false;
 		}
-		day++;
+		day++;//needs to be outside of "if/else" but inside of "while"
 			}
 			
 }
