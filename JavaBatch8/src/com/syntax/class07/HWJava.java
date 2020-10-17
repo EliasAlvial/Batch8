@@ -17,20 +17,20 @@ System.out.println("Please enter an operator you would like to use +,-,*,/");
 operator=scan.next().charAt(0);
 	
 	switch(operator) {
-	case(‘+’):
+	case("+"):
 		result=num1+num2;
 		break;
-	case(‘-’):
+	case("-"):
 		result=num1-num2;
 	  break;
-	case (‘*’):
+	case ("*"):
 		result=num1*num2;
 	  break;
-	case (‘/’):
+	case ("/"):
 		result=num1/2;
 	  break;
 	default :
-		System.out.println("Invalid operator”);
+		System.out.println("error");
 		break;
 	}
 	
