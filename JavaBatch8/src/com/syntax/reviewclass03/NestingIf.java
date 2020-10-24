@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	if("pass123".equals(pass) || pass.equals("pass123")) {
 		System.out.println("Please enter the amount you would like to transfer");
 		transferAmount=scan.nextDouble();
-	if(transferAmount> accoutBalance)	
+	
 	}
 }
 }

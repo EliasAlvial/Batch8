@@ -25,7 +25,7 @@ public class ScannerAndLoop {
 		do{
 		System.out.println("plese enter number");
 		num1=scan.nextInt();}
-		while(num1!=num2){
+		while(num1!=num2); {
 			System.out.println("congratulations");
 		}
 		

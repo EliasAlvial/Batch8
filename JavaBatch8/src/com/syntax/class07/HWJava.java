@@ -17,16 +17,16 @@ System.out.println("Please enter an operator you would like to use +,-,*,/");
 operator=scan.next().charAt(0);
 	
 	switch(operator) {
-	case("+"):
+	case('+'):
 		result=num1+num2;
 		break;
-	case("-"):
+	case('-'):
 		result=num1-num2;
 	  break;
-	case ("*"):
+	case ('*'):
 		result=num1*num2;
 	  break;
-	case ("/"):
+	case ('/'):
 		result=num1/2;
 	  break;
 	default :
@@ -34,9 +34,7 @@ operator=scan.next().charAt(0);
 		break;
 	}
 	
-	 if(operator==‘+’ || operator==‘-’ || operator==‘*’ || operator==‘/’) {
-		 System.out.println(“The ” + operator + ” of two numbers is ” + result);
-			
+	
 	 }
 }
-}
+
