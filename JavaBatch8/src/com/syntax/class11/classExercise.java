@@ -28,7 +28,8 @@ public class classExercise {
 		for(int i=0; i<food.length; i++) {
 			for (int j=0; j<food[i].length; j++) {
 				System.out.print(food[i][j]+" ");
-			}System.out.println();
+			}
+			System.out.println();
 		}
 		
 		}
