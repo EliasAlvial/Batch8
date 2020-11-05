@@ -22,7 +22,7 @@ public class Account {
         }
     }
     double transfer(double transferAmount){
-        if(limit>=transferAmount){
+        if(limit<=transferAmount){
            return balance=limit-transferAmount;
         }else {
             return 0;

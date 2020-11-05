@@ -12,6 +12,7 @@ public class Main {
         dog1.getsBeer();
         dog1.bark();
         dog1.play();
+        dog1.sit();
 
 
 

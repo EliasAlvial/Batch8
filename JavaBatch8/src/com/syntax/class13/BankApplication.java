@@ -20,7 +20,7 @@ public class BankApplication {
         System.out.println("Please enter amount you would like to withdraw");
         transferAmount=scan.nextInt();
         double canWithdraw=burjuAccount.transfer(transferAmount);{
-            if  (transferAmount==0){
+            if  (transferAmount>= burjuAccount.limit){
                 System.out.println("insufficient balance");
             }else{
                 System.out.println(transferAmount+" Withdrawn");

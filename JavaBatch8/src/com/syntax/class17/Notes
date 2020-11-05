@@ -1,0 +1,24 @@
+Methods in Java-block of code that performs certain actions.
+Built-in methods string.length->returns the number of characters in a string.
+Methods:
+with parameters
+Without parameters
+Parameters Vs arguments?
+Create a method to return result of adding the numbers.
+
+public double addNumber(double num1, double num2){
+return  num1+num2;
+}
+Must have parts in methods
+1) return type(we can return any type primitive or non primitive, void)
+2)Name of the method
+3)parameter/no parameter
+Benefits of methods:
+1)Reduce code duplication
+2)More cleaner and manageable code
+3)Save memory
+4)Increases Readability
+
+Variable
+Local Variable
+any variable that is declared inside a method or a block or a constructor is called a local variable
