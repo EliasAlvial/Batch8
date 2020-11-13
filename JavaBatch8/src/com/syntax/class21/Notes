@@ -1,0 +1,35 @@
+Inheritance:
+    Is a mechanism in Java through which we can use the field and methods
+    from one class to other classes without re-writing a single line
+    of code / repeating the code from the class from which we are inheriting.
+  Benefits of using inheritance:
+    1)cleaner more efficient code for memory and execution
+    2) It helps us reduce duplicate code
+    3) save time
+    4) reusing the same code again.
+  Disadvantages:
+    1) Classes are tightly coupled changes in parent class effect child class
+    Class Parent{
+
+    int Money;
+    void print(){
+    s-out"Money ="+Money
+    }
+    }
+
+    class Child extends Parent{
+
+    main(){
+    Child chile=new Child();
+    child.print();
+    }
+    }
+
+
+    we can access our static fields and methods using class names and using objects
+    of the class but using Class name is preferable because static methods and fields
+    belong to the class and not to the objects
+  SuperKeyWord:
+    As we can use this keyword in java to refer to the current fields and methods we can use super keyword
+    to access the fields and methods from immediate parent class.
+    it is used in subclasses to access superclass members
