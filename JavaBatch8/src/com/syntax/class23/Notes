@@ -1,0 +1,35 @@
+Class 23
+
+Overloading:
+Occurs within ONE class
+Name of the method is same but parameters are different
+Purpose: Increases Readability of program
+Return type can be same or different
+It is an example of Compile time Polymorphism.
+
+Overriding:
+Occurs in TWO classes:
+Super class and sub class i.e. Inheritance is involved.
+Name and parameters both are the same.
+Purpose: Use the method in the child class which is already present in Parent class.
+Return type is always same.
+It is an example of Run Time Polymorphism.
+
+
+1) Can we overload privated methods
+yes we can overlload how?
+
+class Test{
+private print(){
+sout"Hi
+}
+}
+
+2) Can we overload static methods
+Yes
+Class test2{
+public static void print(double var){
+sout"Hi"+var}
+}
+
+3)Can we overload Main method

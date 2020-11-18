@@ -1,0 +1,12 @@
+4 Pillars of OOP to support programming.
+1)Inheritance
+2) Polymorphism
+3)Abstraction
+4)Encapsulation
+Abstraction:
+    It is a process of hiding implementation details and showing
+    only the important to the user
+  In java we have two types of Abstraction
+    1) Using the  Abstract class
+    2) Using the Interfaces
+  In have so far we have implemented the complete methods where we needed them.

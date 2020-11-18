@@ -1,0 +1,27 @@
+Class:
+classes are blueprints/template/States behavior/block of code/
+that helps us model a real life objet like car/bike/computer/
+For example:
+we can have a Car c;ass which hcan have properties and behaviours
+that can used to build a specific model of card like Toyota/Mazda etc
+
+class NameOfClass{
+String Model;
+String male;
+String color;
+int year;
+
+void drive(){
+sout";
+}
+void switchgear(){
+sout"";
+}
+void applyBreaks(){
+
+}
+
+void drift(){
+
+}
+}

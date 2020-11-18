@@ -1,9 +1,9 @@
 package com.syntax.class13;
 
 public class Dog {
+    public String breed;
     //write some attribute that a dog can have
    String name;
-    String breed;
     String color;
     boolean loyalty;
     int age;
