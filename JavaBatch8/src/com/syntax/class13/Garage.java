@@ -1,7 +1,7 @@
 package com.syntax.class13;
 
 public class Garage {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         Car car1=new Car();
         car1.numberOfDoors=4;
         car1.color="black";
@@ -19,4 +19,5 @@ public class Garage {
         System.out.println("car1 make "+car1.make);
         System.out.println("car1 make "+car2.make);
     }
+    */
 }
