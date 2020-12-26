@@ -1,0 +1,30 @@
+TestNG notes class3
+
+<suit>
+    <test name="Any name">
+        <packages>
+            <classes>
+                <class name="the name that need">
+                    <methods?
+                        ,excludes name
+                    </methods>
+                </class>
+            </classes>
+        </packages>
+    </test>
+</suite
+
+------------------------------------------------------------------
+Assertions
+Hard if assertion fails -> exception stio right away(Assert class)
+Soft collects all failures and then at the we need to call assertall() (softAssert)---(class is static)
+
+@Test(dependsOnMethods="turnOn")
+public void turnOff(){
+.......
+}
+
+@Test
+public void turnOn(){
+    .........
+}

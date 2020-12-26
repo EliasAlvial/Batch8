@@ -86,7 +86,7 @@ double English;
 
 
     public static void main(String[] args) {
-        Marks studentA = new StudentA(85, 90, 98);
+        Marks studentA = new StudentA(85, 75, 69);
         studentA.getPercentage();
         Marks studentB = new StudentB(80, 92, 89, 98);
         studentB.getPercentage();

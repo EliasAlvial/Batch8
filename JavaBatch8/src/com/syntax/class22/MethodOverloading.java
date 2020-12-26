@@ -11,12 +11,12 @@ public class MethodOverloading {
         System.out.println("String name, int number");
     }
     public void print(int number, String name){
-        System.out.println("int number, String name");
+        System.out.println(number+name);
 
     }
     public String print(String name){
         System.out.println("String name");
-        return "name";
+        return name;
     }
 
     public static void main(String[] args) {

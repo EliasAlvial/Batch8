@@ -63,7 +63,7 @@ class Sedan extends Car{
 
 
     public static void main(String[] args) {
-    Car sedan=new Sedan(25000,"Red",15);
+    Car sedan=new Sedan(25000,"Red",19);
     sedan.calculateSalePrice();
     Car truck=new Truck(45000,"Blue",1900);
     truck.calculateSalePrice();

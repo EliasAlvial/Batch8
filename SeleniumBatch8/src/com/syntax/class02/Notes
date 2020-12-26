@@ -1,0 +1,39 @@
+What is a WEbElement?
+Anything we see on the webpage is considered to be a "WebElement"
+    e.g buttons, dropdowns, textboxes, checkboxes
+
+HTML
+HyperText Markup Language
+
+What is DOM?
+DOM stands for Document Object Model. It is a browser's internal view of the webpage.
+Also called Developer's tools
+Document -- can be stored in any document, like pdf, excel or word.
+Object -- any line inside HTML is called an Object
+Model --it is just a layout of the HTML file.
+
+Locator:
+is an address or a position of a webElement in the webpage
+
+8 Locators:
+-- id
+-- name
+-- className
+-- linkText
+-- partialLinkText
+-- xpath
+-- cssSelector
+-- tagName
+
+HTML scripting meanings:
+purple -- tags
+brown -- attributes
+blue -- attribute values
+
+Why do we need many locators
+--Developers may not provide all the locators for elements
+-- some locators might have duplicate values in the other nodes
+-- Some locators may not be applicable to all the elements
+        e.g LinnkText and Partial LinkText are only used for links
+
+"a"

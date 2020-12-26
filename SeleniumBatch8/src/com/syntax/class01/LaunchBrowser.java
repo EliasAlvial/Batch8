@@ -10,7 +10,7 @@ public class LaunchBrowser {
                                                         //you can also use \\
 
         WebDriver driver=new ChromeDriver();
-        driver.get("https:syntaxtechs.com");
+        driver.get("https:facebook.com");
         String url=driver.getCurrentUrl();
         System.out.println(url);
         String title=driver.getTitle();
